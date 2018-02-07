@@ -1,0 +1,17 @@
+<JGM092_203mm55_dead.mfm>
+	<fx>	shaders/std_effects/PBS_ship.fx	</fx>
+	<materialKind>	0	</materialKind>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_XJBMG_Zao_Fan/JSC034_Zao_1944/gun/JGM092_203mm55_dead_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_XJBMG_Zao_Fan/JSC034_Zao_1944/gun/JGM092_203mm55_n.dds	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_XJBMG_Zao_Fan/JSC034_Zao_1944/gun/JGM092_203mm55_dead_a.dds	</Texture>
+	</property>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_XJBMG_Zao_Fan/JSC034_Zao_1944/gun/default_ao.dds	</Texture>
+	</property>
+</JGM092_203mm55_dead.mfm>

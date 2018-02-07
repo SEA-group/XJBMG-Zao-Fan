@@ -1,0 +1,17 @@
+<JAS007_Kawanishi_E15K1.mfm>
+	<fx>	shaders/std_effects/PBS.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_XJBMG_Zao_Fan/JSC034_Zao_1944/aircraft/JAS007_Kawanishi_E15K1_a.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_XJBMG_Zao_Fan/JSC034_Zao_1944/aircraft/JAS007_Kawanishi_E15K1_n.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_XJBMG_Zao_Fan/JSC034_Zao_1944/aircraft/JAS007_Kawanishi_E15K1_mg.dds	</Texture>
+	</property>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_XJBMG_Zao_Fan/JSC034_Zao_1944/aircraft/default_ao.dds	</Texture>
+	</property>
+</JAS007_Kawanishi_E15K1.mfm>

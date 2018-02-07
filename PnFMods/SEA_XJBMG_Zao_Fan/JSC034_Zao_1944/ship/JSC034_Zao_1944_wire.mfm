@@ -1,0 +1,14 @@
+<JSC034_Zao_1944_wire.mfm>
+	<materialKind>	0	</materialKind>
+	<collisionFlags>	0	</collisionFlags>
+	<fx>	shaders/std_effects/PBS_wire.fx	</fx>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_XJBMG_Zao_Fan/JSC034_Zao_1944/ship/JSC034_Zao_1944_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_XJBMG_Zao_Fan/JSC034_Zao_1944/ship/JSC034_Zao_1944_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_XJBMG_Zao_Fan/JSC034_Zao_1944/ship/JSC034_Zao_1944_n.dds	</Texture>
+	</property>
+</JSC034_Zao_1944_wire.mfm>
