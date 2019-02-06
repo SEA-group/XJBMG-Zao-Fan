@@ -20,7 +20,7 @@
 				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
 			</transform>
 			<node>
-				<identifier>	propeller_disk	</identifier>
+				<identifier>	propeller_mod	</identifier>
 				<transform>
 					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
@@ -28,7 +28,7 @@
 					<row3>	0.000000 0.179911 0.206792 1.000000	</row3>
 				</transform>
 				<node>
-					<identifier>	disk	</identifier>
+					<identifier>	disc	</identifier>
 					<transform>
 						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
@@ -36,18 +36,18 @@
 						<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
 					</transform>
 					<node>
-						<identifier>	disk_1	</identifier>
+						<identifier>	disc_cap	</identifier>
 						<transform>
 							<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 							<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
 							<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-							<row3>	0.000000 -0.179911 -0.206792 1.000000	</row3>
+							<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
 						</transform>
 					</node>
 				</node>
 			</node>
 			<node>
-				<identifier>	propeller_mod	</identifier>
+				<identifier>	mod	</identifier>
 				<transform>
 					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
@@ -91,10 +91,10 @@
 	</renderSet>
 	<renderSet>
 		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	disk	</node>
+		<node>	disc	</node>
 		<geometry>
-			<vertices>	disk_lod1Shape.vertices	</vertices>
-			<primitive>	disk_lod1Shape.indices	</primitive>
+			<vertices>	disc_lod1Shape.vertices	</vertices>
+			<primitive>	disc_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
 					<identifier>	PROPELLERMAT_propeller	</identifier>
@@ -105,10 +105,10 @@
 	</renderSet>
 	<renderSet>
 		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	disk_1	</node>
+		<node>	disc_cap	</node>
 		<geometry>
-			<vertices>	disk_1_lod1Shape.vertices	</vertices>
-			<primitive>	disk_1_lod1Shape.indices	</primitive>
+			<vertices>	disc_cap_lod1Shape.vertices	</vertices>
+			<primitive>	disc_cap_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
 					<identifier>	PBS_Plane	</identifier>
@@ -119,10 +119,10 @@
 	</renderSet>
 	<renderSet>
 		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	propeller_mod	</node>
+		<node>	mod	</node>
 		<geometry>
-			<vertices>	propeller_mod_lod1Shape.vertices	</vertices>
-			<primitive>	propeller_mod_lod1Shape.indices	</primitive>
+			<vertices>	mod_lod1Shape.vertices	</vertices>
+			<primitive>	mod_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
 					<identifier>	PBS_Plane	</identifier>
